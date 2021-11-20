@@ -3,9 +3,12 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import './Navigation.css';
 
+
 const Navigation = () => {
+
+      
     return (
-        <Navbar style={{height: '100px'}} className="change-color mt-0" collapseOnSelect expand="lg" >
+        <Navbar data-aos="zoom-out-down" style={{height: '100px'}} className="change-color mt-0" collapseOnSelect expand="lg" fixed="top" >
 <Container>
 <Navbar.Brand href="#home"> <span className="Uddog-O-Uddogta text-danger">UDDOG O UDDOGTA</span> </Navbar.Brand>
 <Navbar.Toggle />

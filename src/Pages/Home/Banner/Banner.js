@@ -15,7 +15,7 @@ import { FloatingLettersTextBuilder } from 'react-animated-text-builders'
 
 const Banner = () => {
     return (
-      <Box className="carousel-edit" sx={{ height: '75%' }}>
+      <Box data-aos="zoom-in-down" className="carousel-edit" sx={{ height: '75%' }}>
       <div id="carouselExampleCaptions" className="carousel slide carousel-fade" data-bs-ride="carousel">
 
   <div className="carousel-inner">
@@ -24,17 +24,17 @@ const Banner = () => {
       <div className="carousel-caption d-none d-md-block" data-aos="fade-right">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
-        <button>Learn More</button>
+    
       </div>
     </div>
-    <div className="carousel-item" id="slide-1">
+    <div className="carousel-item" id="slide-2">
    
       <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
-    <div className="carousel-item" id="slide-1">
+    <div className="carousel-item" id="slide-3">
   
       <div className="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
@@ -46,6 +46,44 @@ const Banner = () => {
 
 
 </div>
+
+{/* <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div id="slide-1" class="carousel-item ">
+    <div className="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+     
+      </div>
+    </div>
+    <div id="slide-2" class="carousel-item ">
+  
+     
+    <div  className="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+
+    </div>
+    <div id="slide-3" class="carousel-item active">
+    <div className="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+        
+      </div>
+    </div>
+  </div>
+</div> */}
+
+
+
+
+
       </Box>
         
     );

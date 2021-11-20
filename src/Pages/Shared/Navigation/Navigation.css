@@ -1,23 +1,29 @@
 .change-color{
-    background-color: #ffffffb2;
-    /* position: sticky;
-    top:0; */
-    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.493);
 
+     background-color: #ffffffb2; 
+     position: sticky;
+    top:0; 
+     box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.493); 
+
+    top:0;
     
 }
 
 .style-nav{
     color:#b71c1c;
-    font-weight: bolder; 
+    font-weight: 900; 
    
     transition: 5s;
+
+  
 }
 
 .style-nav:hover{
     border-bottom-width:0mm;
     border-bottom: 1px solid #b71c1c;
     color: #d50000;
+
+
    
    
     
@@ -25,9 +31,10 @@
 
 
 .Uddog-O-Uddogta{
-    font-size: 48px;
+    font-size: 38px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #b71c1c;
+    font-weight: 900;
 }
 
 .hover-underline-animation {

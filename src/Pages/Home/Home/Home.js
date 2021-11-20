@@ -1,6 +1,8 @@
 import React from 'react';
+
 import Impacts from '../../Impacts/Impacts';
 import Footer from '../../Shared/Footer/Footer';
+import { Nav } from '../../Shared/Navbar/NavbarStyles';
 import Navigation from '../../Shared/Navigation/Navigation';
 import AboutUs from '../AboutUs/AboutUs';
 import Banner from '../Banner/Banner';
@@ -13,7 +15,7 @@ import AboutBanner from './../AboutBanner/AboutBanner';
 const Home = () => {
     return (
         <div className="mt-0">
-       <Navigation></Navigation>
+        <Navigation></Navigation>
        <Banner></Banner>
        <JoinUs></JoinUs>
        <AboutUs></AboutUs>
